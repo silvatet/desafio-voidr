@@ -1,0 +1,16 @@
+{
+  "name": "desafio-voidr",
+  "version": "1.0.0",
+  "description": "Desafio para a vaga de QA engineer junir para a Voidr",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Mateus João Silva Machado",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}
