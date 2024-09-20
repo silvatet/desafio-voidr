@@ -10,12 +10,3 @@ O projeto consiste em [descrever brevemente o que o projeto faz e quais problema
 
 - **Dramaturgo**: Automação de testículos de aplicativos web.
 - **TipoScript**: Tipagem estática para aumentar a qualidade e a manutenção do código.
-
-## 🔧 Como Executar o Projeto
-
-Siga os passos baixo para rodar ou projeto local:
-
-1. **Clone o repositório:**
- `bash
- clone Git https://github.com/seuusuario/seu-repositorio.git
- cd seu-repositório
