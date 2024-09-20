@@ -1,6 +1,6 @@
 # 🛠 Desafio Dramaturgo com TypeScript
 
-Este projeto foi desenvolvido como parte de um desafio proposto a mim, vendo explorar e aplicar como funções fazem **Dramaturgo** em conjunto com **TipoScript**.
+Este projeto foi desenvolvido como parte de um desafio proposto a mim, vendo explorar e aplicar como funções fazem **Playwright** em conjunto com **TipoScript**.
 
 ## 🌟 Sobre o Projeto
 
