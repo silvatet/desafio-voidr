@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte de um desafio proposto a mim, vendo exp
 
 ## 🌟 Sobre o Projeto
 
-O projeto consiste em ambiente de teste para ver se as aplicações do site está funcionando. Utilizamos o Dramaturgo para automação de testes em aplicações web, garantindo uma experiência robusta e confiança.
+O projeto consiste em ambiente de teste para verificar se as aplicações do site estão funcionando. Utilizamos o Dramaturgo para automação de testes em aplicações web, garantindo uma experiência robusta e confiança.
 
 ## 🚀 Tecnologias Utilizadas
 
