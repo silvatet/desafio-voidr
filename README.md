@@ -9,4 +9,4 @@ O projeto consiste em ambiente de teste para verificar se as aplicações do sit
 ## 🚀 Tecnologias Utilizadas
 
 - **Playwright**: Automação de testículos de aplicativos web.
-- **TipoScript**: Tipagem estática para aumentar a qualidade e a manutenção do código.
+- **TypeScript**: Tipagem estática para aumentar a qualidade e a manutenção do código.
