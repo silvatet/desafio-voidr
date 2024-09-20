@@ -43,3 +43,31 @@ test('o usuário faz login com credenciais inválidas', async ({ page }) => {
     // Verifica se a mensagem de erro contém o texto esperado
     await expect(await errorText.textContent()).toContain('Username and password do not match any user in this service');
 });
+test('login page has a valid login button', async ({ page }) => {
+    // Acessa a página de login
+    await page.goto('https://www.saucedemo.com/v1/');
+    // Verifica se o título da página é "Swag Labs"
+    await expect(await page.title()).toBe('Swag Labs');
+  
+    // Verifica se o botão de login é válido
+    const loginButton = await page.locator('[data-test="login-button"]');
+    await expect(loginButton).toBeVisible();
+    await expect(loginButton).toBeEnabled();
+  });
+
+  test('login page has valid username and password input', async ({ page }) => {
+    // Acessa a página de login
+    await page.goto('https://www.saucedemo.com/v1/');
+    // Verifica se o título da página é "Swag Labs"
+    await expect(await page.title()).toBe('Swag Labs');
+  
+    // Verifica se o campo de usuário é válido
+    const usernameInput = await page.locator('[data-test="username"]');
+    await expect(usernameInput).toBeVisible();
+    await expect(usernameInput).toBeEnabled();
+  
+    // Verifica se o campo de senha é válido
+    const passwordInput = await page.locator('[data-test="password"]');
+    await expect(passwordInput).toBeVisible();
+    await expect(passwordInput).toBeEnabled();
+  });
